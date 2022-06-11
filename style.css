@@ -1,0 +1,28 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2e282a;
+}
+
+button{
+    border: 3px solid #fb8500;
+    padding: 25px;
+    margin: 25px;
+    font-size: 25px;
+    background-color: #ffb703;
+    transition: 1s;
+}
+
+button:hover{
+    border-radius: 15px;
+    transform: scale(1.5);
+    box-shadow: 3px 3px 3px rgb(211, 42, 30);
+    cursor: pointer;
+    transition-duration: 2s;
+    transition-timing-function:cubic-bezier(0.34, 1.56, 0.64, 1);
+}
